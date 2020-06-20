@@ -1,0 +1,156 @@
+@font-face{
+    font-family: assignmentfont;
+    src: url(../fonts/assignmentfont.ttf) format('truetype');
+}
+
+body{
+    margin: 0;
+    font-family: assignmentfont;
+}
+
+.main{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.main h6{
+    margin-top: 1%;
+    color: lightgray;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+/* CRM */
+.main .main-cont .main-row .crm .crm-logo img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 8% auto;
+}
+
+.main .main-cont .main-row .crm .crm-logo h3{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.main .main-cont .main-row .crm .crm-details h3{
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+.main .main-cont .main-row .crm .crm-details p{
+    font-size: 0.85em;
+}
+
+.main .main-cont .main-row .crm .crm-details button{
+    margin-top: 5%;
+    background-color: green;
+    border-radius: 1px;
+    border: 0;
+}
+
+/* Other */
+.main .main-cont .main-row .other-col .other-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main .main-cont .main-row .other-col .other-grid .items{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.main .main-cont .main-row .other-col .other-grid .items .item-logo img{
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: 0px auto;
+}
+
+.main .main-cont .main-row .other-col .other-grid .items .item-details h5{
+    margin-top: 5%;
+}
+
+.main .main-cont .main-row .other-col .other-grid .items .item-details p{
+    font-size: .60em;
+}
+
+
+/* Responsive Design for Tab */
+
+@media screen and (max-width:800px){
+    .main .main-cont .main-row .crm .crm-details h3{
+        text-align: center;
+    }
+    .main .main-cont .main-row .crm .crm-details p{
+        text-align: center;
+    }
+    .main .main-cont .main-row .crm .crm-details button{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main .main-cont .main-row .other-col{
+        margin-top: 5%;
+    }
+
+    .main .main-cont .main-row .other-col .other-grid .items{
+        display: block;
+    }
+
+    .main .main-cont .main-row .other-col .other-grid .items{
+        text-align: center;
+    }
+
+    .main .main-cont .main-row .other-col .other-grid .items .item-details h5{
+        margin-top: 1%;
+    }
+
+    .main .main-cont .main-row .other-col .other-grid .items .item-details p{
+        display: none;
+    }
+
+}
+
+
+/* Responsive Design for Mobile*/
+@media screen and (max-width:500px){
+    .main .main-cont .main-row .crm .crm-details h3{
+        text-align: center;
+    }
+    .main .main-cont .main-row .crm .crm-details p{
+        text-align: center;
+    }
+    .main .main-cont .main-row .crm .crm-details button{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main .main-cont .main-row .other-col{
+        margin-top: 5%;
+    }
+
+    .main .main-cont .main-row .other-col .other-grid .items{
+        display: block;
+    }
+
+    .main .main-cont .main-row .other-col .other-grid .items{
+        text-align: center;
+    }
+
+    .main .main-cont .main-row .other-col .other-grid .items .item-details h5{
+        margin-top: 1%;
+    }
+
+    .main .main-cont .main-row .other-col .other-grid .items .item-details p{
+        display: none;
+    }
+
+}
+
+
+
+
+
